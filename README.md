@@ -2,7 +2,7 @@
 
 # 1 基本说明
 本项目在于能够让大家能够更加快速地了解MIL这个领域，因此将从以下几个方面重点介绍MIL (这里不详细介绍每一篇文章，只做概述):
-1. [MIL理论概述](Theories/README.md):</br>
+1. [MIL理论概述](Theories/README.md)
    - [传统MIL方法](Theories/Traditional.md) 
    - [注意力网络](Theories/Attention.md)
    - [自监督学习](Theories/SelfSupervised.md)
