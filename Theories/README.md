@@ -1,4 +1,4 @@
-[上一级](README.md)
+[上一级](https://github.com/InkiYinji/MIL-Review/blob/main/README.md)
 
 # 总览
 之所以优先介绍传统MIL方法，究其原因为：
