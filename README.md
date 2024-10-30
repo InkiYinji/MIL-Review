@@ -2,7 +2,9 @@
 
 # 1 基本说明
 本项目在于能够让大家能够更加快速地了解MIL这个领域，因此将从以下几个方面重点介绍MIL (这里不详细介绍每一篇文章，只做概述)：
-1. [MIL理论概述](Theories/README.md);
+1. [MIL理论概述](Theories/README.md);</br>
+   - [传统MIL方法](Theories/Traditional.md) 
+   - [注意力网络]
 2. [MIL交叉领域](Extensions/README.md);
 3. [MIL应用领域](Applications/README.md);
 
