@@ -1,4 +1,4 @@
-**说明**：本文在于能够让大家能够更加快速地了解MIL这个领域，因此将从以下几个方面重点介绍MIL (这里不详细介绍每一篇文章，只做概述)。
+本项目在于能够让大家能够更加快速地了解MIL这个领域，因此将从以下几个方面重点介绍MIL (这里不详细介绍每一篇文章，只做概述)。
 
 [**会议合集：https://github.com/Lionelsy/Conference-Accepted-Paper-List**](https://github.com/Lionelsy/Conference-Accepted-Paper-List)
 [**代码合集：https://github.com/lingxitong/MIL_BASELINE**](https://github.com/lingxitong/MIL_BASELINE/tree/main)
