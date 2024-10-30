@@ -1,6 +1,4 @@
-## 目录
-1. [主页](README.md)
-2. [MIL理论概述](Traditional.md)
+[上一级](README.md)
 
 ---
 
