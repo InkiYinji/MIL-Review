@@ -1,0 +1,10 @@
+[上一级](Traditional.md)
+
+
+|方法名|团队|期刊/会议|全称|思想|领域|
+:------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------:|:---:|:---:|:---:|:---:
+|[ItS2CLR](https://github.com/Kangningthu/ItS2CLR)|[纽约大学](https://scholar.google.com/citations?user=F3F2qAkAAAAJ&hl=zh-CN&oi=sra)|CVPR'23|[Multiple instance learning via iterative self-paced supervised contrastive learning](https://inkiyinji.blog.csdn.net//article/details/133066363)|实例伪标签提升表示学习质量，并通过自步采用策略优化|WSI
+[_Giga-SSL_](https://github.com/trislaz/gigassl)|[巴黎科学与文学大学](https://scholar.google.com/citations?user=OAKoksYAAAAJ&hl=zh-CN&oi=sra)|CVPR’23|[Giga-SSL: Self-supervised learning for gigapixel images](https://blog.csdn.net/weixin_44575152/article/details/141940131)|利用抽样实例并采样增强策略来生成用于自监督学习的实例集合，后续过程等同于SimCLR|WSI
+[HiDisc](https://github.com/MLNeurosurg/hidisc)|[密歇根大学](https://scholar.google.com/citations?user=T9GuTDIAAAAJ&hl=zh-CN&oi=sra)|CVPR'23|[Hierarchical discriminative learning improves visual representations of biomedical microscopy](https://blog.csdn.net/weixin_44575152/article/details/141954874)|利用患者-WSI-区块这一层级结构信息来设置自监督学习中的对比损失|WSI
+|[_SMILES_](https://github.com/fulowl/smiles)|[东北大学](https://scholar.google.com/citations?user=LVRwELgAAAAJ&hl=zh-CN&oi=sra)|AAAI'23|[Robust self-supervised multi-instance learning with structure awareness](https://blog.csdn.net/weixin_44575152/article/details/131551473)|引入无监督对比学习来获取包表示|理论
+|[MuRCL](https://github.com/wwu98934/MuRCL)|厦门大学|IEEE TMI'22|[MuRCL: Multi-instance reinforcement contrastive learning for whole slide image classification](https://blog.csdn.net/weixin_44575152/article/details/128288963)|训练自监督管理器，然后基于WSI幻灯片级别标签微调，并设计了一个基于强化学习的代理来加速训练|WSI

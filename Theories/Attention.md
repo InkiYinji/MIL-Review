@@ -1,13 +1,18 @@
 [上一级](Traditional.md)
 
+注意力机制的引入是深度MIL发展史上的一次伟大变革，其以Ilse等人发表的ABMIL和GAMIL为伊始，并深刻影响着后续MIL算法的发展。后续的基于对比学习、介入学习等策略的MIL大都围绕其展开，只是方法的侧重有所不同。
+注意：
+- 大部分方法都包含注意力机制。因此，只要当前方法没有侧重其它策略，都被归属到此类；
+- **加粗标识的方法适合入门，斜体标识的方法相对简单**；
+
 |方法名|                                                        团队                                                         |期刊/会议|全称|思想|领域|
 :------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------:|:---:|:---:|:---:|:---:
-|[<font color=red>**DKMIL**](https://github.com/InkiInki/DKMIL)|                     [西南交通大学](https://scholar.google.com/citations?user=JxgsypwAAAAJ&hl=zh-CN)                     |TNNLS'24|Data-driven knowledge fusion for deep multi-instance learning|利用已有方法中的先验知识，设计基于关键实例的知识融合模块，以获取更好地包表示|理论
-<font color=red>**AMD-MIL**|                  [清华大学](https://scholar.google.com/citations?user=5lNlpagAAAAJ&hl=zh-CN&oi=sra)                   |ACM MM'24|[Agent aggregator with mask denoise mechanism for histopathology whole slide image analysis](https://blog.csdn.net/weixin_44575152/article/details/142062377)|代理注意力机制的改进及掩码去噪|WSI
+|[**DKMIL**](https://github.com/InkiInki/DKMIL)|                     [西南交通大学](https://scholar.google.com/citations?user=JxgsypwAAAAJ&hl=zh-CN)                     |TNNLS'24|Data-driven knowledge fusion for deep multi-instance learning|利用已有方法中的先验知识，设计基于关键实例的知识融合模块，以获取更好地包表示|理论
+**AMD-MIL**|                  [清华大学](https://scholar.google.com/citations?user=5lNlpagAAAAJ&hl=zh-CN&oi=sra)                   |ACM MM'24|[Agent aggregator with mask denoise mechanism for histopathology whole slide image analysis](https://blog.csdn.net/weixin_44575152/article/details/142062377)|代理注意力机制的改进及掩码去噪|WSI
 |PAMIL|                                   [哈尔滨工业大学](https://vilab.hit.edu.cn/team.html)                                   |CVPR'24|Dynamic policy-driven adaptive multi-instance learning for whole slide image classification||WSI
-|[<font color=red>**WiKG**](https://github.com/WonderLandxD/WiKG)|                  [清华大学](https://scholar.google.com/citations?user=7HMFNfQAAAAJ&hl=zh-CN&oi=sra)                   |CVPR'24|[Dynamic graph representation with knowledge-aware attention for histopathology whole slide image analysis](https://inkiyinji.blog.csdn.net/article/details/137845035)|利用动态图构建和用于节点更新的知识感知注意力机制来生成图表示|WSI
+|[**WiKG**](https://github.com/WonderLandxD/WiKG)|                  [清华大学](https://scholar.google.com/citations?user=7HMFNfQAAAAJ&hl=zh-CN&oi=sra)                   |CVPR'24|[Dynamic graph representation with knowledge-aware attention for histopathology whole slide image analysis](https://inkiyinji.blog.csdn.net/article/details/137845035)|利用动态图构建和用于节点更新的知识感知注意力机制来生成图表示|WSI
 |[CIMIL](https://github.com/centurion-crawler/CIMIL)|                  [厦门大学](https://scholar.google.com/citations?user=llXf3wUAAAAJ&hl=zh-CN&oi=sra)                   |AAAI'24|Boosting multiple instance learning models for whole slide image classification: A modelagnostic framework based on counterfactual inference||WSI
-|<font color=red>CaMIL|                 [华东师范大学](https://scholar.google.com/citations?user=whZnq5wAAAAJ&hl=zh-CN&oi=sra)                  |AAAI'24|[CaMIL: Causal multiple instance learning for whole slide image classification](https://inkiyinji.blog.csdn.net/article/details/137237682)|在IBMIL的基础上，改进去混淆介入式学习|WSI 
+|_CaMIL_|                 [华东师范大学](https://scholar.google.com/citations?user=whZnq5wAAAAJ&hl=zh-CN&oi=sra)                  |AAAI'24|[CaMIL: Causal multiple instance learning for whole slide image classification](https://inkiyinji.blog.csdn.net/article/details/137237682)|在IBMIL的基础上，改进去混淆介入式学习|WSI 
 |VINO|                  [复旦大学](https://scholar.google.com/citations?user=Xc6ehVAAAAAJ&hl=zh-CN&oi=sra)                   |AAAI'24|Transformer-based video-structure multi-instance learning for whole slide image classification||WSI
 |CSMIL|                 [范德比尔特大学](https://scholar.google.com/citations?user=B3UojrgAAAAJ&hl=zh-CN&oi=sra)                 |Medical Image Analysis'24|Cross-scale multi-instance learning for pathological image diagnosis||WSI
 |[<font color=red>IBMIL](https://github.com/HHHedo/IBMIL)|                 [上海交通大学](https://scholar.google.com/citations?user=-ok791gAAAAJ&hl=zh-CN&oi=sra)                  |CVPR'23|Interventional bag multi-instance learning on whole-slide pathological images|基于训练模型和$k$Means的全局特征提取|WSI
