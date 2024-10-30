@@ -21,6 +21,8 @@
    - [多示例主动学习](Extensions/MILActive.md)
 3. [MIL应用领域](Applications/README.md)
    - [全幻灯片分类 (WSI)](Applications/WSI.md)
+   - [视频异常检测 (VAD)](Applications/VAD.md)
+   - [免疫库分类](Applications/IRC.md)
 
 [**会议合集：https://github.com/Lionelsy/Conference-Accepted-Paper-List**](https://github.com/Lionelsy/Conference-Accepted-Paper-List)
 
