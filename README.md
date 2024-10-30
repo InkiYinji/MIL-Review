@@ -2,7 +2,7 @@
 
 # 1 基本说明
 本项目在于能够让大家能够更加快速地了解MIL这个领域，因此将从以下几个方面重点介绍MIL (这里不详细介绍每一篇文章，只做概述)：
-1. [MIL理论概述](Theories/README.md):
+1. [MIL理论概述](Theories/README.md)
    - [传统MIL方法](Theories/Traditional.md) 
    - [注意力网络](Theories/Attention.md)
    - [自监督学习](Theories/SelfSupervised.md)
@@ -11,7 +11,7 @@
    - [数据增强](Theories/DataEnhancement.md)
    - [对抗生成网络](Theories/GAN.md)
    - [大语言模型](Theories/LLM.md)
-2. [MIL交叉领域](Extensions/README.md):
+2. [MIL交叉领域](Extensions/README.md)
    - [多模态多示例 (M3IL)](Extensions/M3IL.md)
    - [多示例偏标签 (MIPL)](Extensions/MIPL.md)
    - [多示例多标签 (MIML)](Extensions/MIML.md)
@@ -19,7 +19,7 @@
    - [多示例正和无标签学习 (PU-MIL)](Extensions/PU-MIL.md)
    - [多示例分布外检测 (MIL-OOD)](Extensions/MIL-OOD.md)
    - [多示例主动学习](Extensions/MILActive.md)
-3. [MIL应用领域](Applications/README.md):
+3. [MIL应用领域](Applications/README.md)
    - [全幻灯片分类 (WSI)](Applications/WSI.md)
 
 [**会议合集：https://github.com/Lionelsy/Conference-Accepted-Paper-List**](https://github.com/Lionelsy/Conference-Accepted-Paper-List)
