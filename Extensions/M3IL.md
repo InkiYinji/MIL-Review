@@ -1,0 +1,11 @@
+[上一级](README.md)
+
+---
+|方法名|团队|期刊/会议|全称|思想|领域
+:-------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------:|:---:|:---:|:------------------------:|:---:
+|[**LaDM$^3$IL✳**](https://github.com/Josie-xufan/LaDM3IL)|[上海科技大学](https://scholar.google.com/citations?user=7XOW0wcAAAAJ&hl=zh-CN&oi=sra)|AAAI'24|[A label disambiguation-based multimodal massive multiple instance learning](https://inkiyinji.blog.csdn.net/article/details/137521297)|基于标签消歧实现多模态多示例的免疫库分类|IRC
+[MDDP](https://github.com/lhaof/MDDP)|[香港中文大学](https://scholar.google.com/citations?user=ugBEYC4AAAAJ&hl=zh-CN&oi=sra)|ACM MM'24|[Multi-modal denoising diffusion pre-training for whole-slide image](https://blog.csdn.net/weixin_44575152/article/details/142067906)|结合H&E和IHC图像对来训练去噪扩散模型，且能够用于增强已有的WSI数据集|WSI|
+|[ViLa-MIL](https://github.com/Jiangbo-Shi/ViLa-MIL)|[西安交通大学](https://scholar.google.com/citations?user=FhR6erIAAAAJ)|CVPR'24|ViLa-MIL: Dual-scale vision-language multiple instance learning for whole slide image classification ([附录](https://openaccess.thecvf.com/content/CVPR2024/supplemental/Shi_ViLa-MIL_Dual-scale_Vision-Language_CVPR_2024_supplemental.pdf))|提出了一种基于冻结大型语言模型 (LLM) 的双尺度视觉描述性文本提示，并有效地转移到WSI的预测上|WSI
+|[PE-MIL](https://github.com/Junxi-Chen/PE-MIL.)|[中国科学院](https://scholar.google.com/citations?user=kVhdLkcAAAAJ)|CVPR'24|Prompt-enhanced multiple instance learning for weakly supervised video anomaly detection|利用异常类注释和可学习提示来设计异常感知提示，从而可以动态地将语义先验纳入视频特征中|WSI
+[AMIGO](https://github.com/raminnakhli/amigo)|[不列颠哥伦比亚大学](https://scholar.google.com/citations?user=8PZHgzUAAAAJ&hl=zh-CN&oi=sra)|CVPR'23|[Sparse multi-modal graph transformer with shared-context processing for representation learning of giga-pixel images](https://blog.csdn.net/weixin_44575152/article/details/141933072)|利用WSI内细胞图层次结构来提供单个WSI表示，且同时能够动态地在细胞级和WSI信息之间聚合|WSI
+|**MAMIL✳**|武汉理工大学|KBS'23|Multimodal multi-instance learning for long-term ECG classification|利用多模态学习处理长时心电图分类|ECG
