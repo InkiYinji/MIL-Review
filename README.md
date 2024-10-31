@@ -28,8 +28,6 @@
 
 [**代码合集：https://github.com/lingxitong/MIL_BASELINE**](https://github.com/lingxitong/MIL_BASELINE/tree/main)
 
-[**Google学术：https://scholar.google.com/citations?user=JxgsypwAAAAJ&hl=zh-CN**](https://scholar.google.com/citations?user=JxgsypwAAAAJ&hl=zh-CN)
-
 ---
 # 2 多示例背景介绍
 **概述**：多示例学习 (MIL) 是一种典型的弱监督学习，其输入的单个样本被称为**包** (bag)，包中包含多个实例 (instance)。在训练阶段，通常只有包的标签可知，而实例的标签不可知或者获取成本极高。因此，概括性的，MIL与传统机器学习的主要区别在于：
