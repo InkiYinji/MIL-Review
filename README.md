@@ -59,7 +59,8 @@
     - 章节2 (理论MIL概述)：关注算法的实现细节；
     - 章节3 (MIL交叉领域)：MIL与多标签、偏标签、对抗攻击、分布外检测的一些结合；
     - 章节4 (MIL应用概述)：着重数据集的说明及其相关处理；
-- **注7**：欢迎大家引用俺哩论文：
+- **注7**：**✳标识的方法适合入门，★标识的方法相对简单**；
+- **注8**：欢迎大家引用俺哩论文：
 ```javascript
 @article{Zhang:2024:data:115,
 author		=	{Zhang, Yu-Xuan and Zhou, Zhengchun and He, Xingxing and Adhikary, Avik Ranjan and Dutta, Bapi},
