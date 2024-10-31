@@ -7,6 +7,7 @@
    - [注意力网络](Theories/Attention.md)
    - [自监督学习](Theories/SelfSupervised.md)
    - [因果推断/介入学习](Theories/CausalInference.md)
+   - [图神经网络](Theories/GNN.md)
    - [强化学习](Theories/ReinforcementLearning.md)
    - [数据增强](Theories/DataEnhancement.md)
    - [对抗生成网络](Theories/GAN.md)
