@@ -3,10 +3,17 @@
 ---
 
 ## 1 数据集
+基准数据集如下：
 1. [**Camelyon16**](https://camelyon17.grand-challenge.org/)：270训练 (159正常111异常)、129测试，包含实例级别标签；
 2. [**TCGA肺癌数据集**](https://portal.gdc.cancer.gov/files/608e2269-04b4-4a20-aca8-d20f36800cc3)：包含两个肺癌子数据集，分别为LUSC、LUAD，文件下载索引可以参照[DSMIL](https://github.com/binli123/dsmil-wsi/tree/master/tcga-download)；
-3. **AGGC22**：前列腺切除术和活检标本的H&E染色WSI数据集，其中训练：测试=168：73，详情参见CIMIL；
-4. **PANDA**：多三分类，包含实例级别标签，详情参见VINO；
+
+更多的数据集下载链接如下：
+
+|名称|官网|类型|类别|实例标签|类别平衡|
+|:----------------:|:---------------:|:----------------:|:---------------:|:---------------:|
+|AGGC2022|[https://aggc22.grand-challenge.org/AGGC22/](https://aggc22.grand-challenge.org/AGGC22/)|前列腺癌|2|×|√|
+|BCNB|[https://bcnb.grand-challenge.org/](https://bcnb.grand-challenge.org/)|乳腺癌|3|√|×|
+
 
 - **注1**：DSMIL提供了预处理版本；
 - **注2**：数据集的预处理一般可以使用[**CLAM**](https://github.com/mahmoodlab/CLAM)；
