@@ -12,7 +12,7 @@
 |名称|官网|类型|类别|实例标签|类别平衡|文本描述
 |:----------------:|:---------------:|:----------------:|:---------------:|:---------------:|:---------------:|:---------------:|
 |AGGC2022|[https://aggc22.grand-challenge.org/AGGC22/](https://aggc22.grand-challenge.org/AGGC22/)|前列腺癌|2||√|
-|ARCH|[https://warwick.ac.uk/fac/cross_fac/tia/data/arch/]|混合|||√
+|ARCH|[https://warwick.ac.uk/fac/cross_fac/tia/data/arch/]|混合||||√
 |BCNB|[https://bcnb.grand-challenge.org/](https://bcnb.grand-challenge.org/)|乳腺癌|3|√||
 |MIDOG2022|[https://midog.deepmicroscopy.org/download-dataset/](https://midog.deepmicroscopy.org/download-dataset/)|[混合]|6||
 
