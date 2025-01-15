@@ -5,7 +5,7 @@
 ## 1 数据集
 基准数据集如下：
 1. [**Camelyon16**](https://camelyon17.grand-challenge.org/)：270训练 (159正常111异常)、129测试，包含实例级别标签；
-2. [**TCGA肺癌数据集**](https://portal.gdc.cancer.gov/files/608e2269-04b4-4a20-aca8-d20f36800cc3)：包含两个肺癌子数据集，分别为LUSC、LUAD，文件下载索引可以参照[DSMIL](https://github.com/binli123/dsmil-wsi/tree/master/tcga-download)；
+2. [**TCGA肺癌数据集**](https://portal.gdc.cancer.gov/files/608e2269-04b4-4a20-aca8-d20f36800cc3)：包含肺癌等多个子数据集，例如为LUSC、LUAD，文件下载索引可以参照[DSMIL](https://github.com/binli123/dsmil-wsi/tree/master/tcga-download)；
 
 具体的下载链接如下：
 
