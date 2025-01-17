@@ -9,15 +9,16 @@
 
 具体的下载链接如下：
 
-|名称|                                                    官网                                                    |  类型  | 类别 | 实例标签 | 类别平衡 | 文本描述 
-|:----------------:|:--------------------------------------------------------------------------------------------------------:|:----:|:--:|:----:|:----:|:----:|
-|AGGC2022|         [https://aggc22.grand-challenge.org/AGGC22/](https://aggc22.grand-challenge.org/AGGC22/)         | 前列腺癌 | 5  |  √   |  √   |
-|ARCH| [https://warwick.ac.uk/fac/cross_fac/tia/data/arch/](https://warwick.ac.uk/fac/cross_fac/tia/data/arch/) |  混合  | 2  |      |      |  √   
-|BACH|                                  [https://zenodo.org/records/3632035](https://zenodo.org/records/3632035)                                  | 乳腺癌  | 4  |  √   |  √   
-|BCNB|                  [https://bcnb.grand-challenge.org/](https://bcnb.grand-challenge.org/)                  | 乳腺癌  | 3  |  √   |      |
-|LC25000|[https://academictorrents.com/details/7a638ed187a6180fd6e464b3666a6ea0499af4af](https://academictorrents.com/details/7a638ed187a6180fd6e464b3666a6ea0499af4af)|肺癌和结肠癌| 5  |      |  √   |
-|MIDOG2022| [https://midog.deepmicroscopy.org/download-dataset/](https://midog.deepmicroscopy.org/download-dataset/) |  混合  | 6  |  √   |  相对  |   |
-|Osteo|[https://www.cancerimagingarchive.net/collection/osteosarcoma-tumor-assessment/](https://www.cancerimagingarchive.net/collection/osteosarcoma-tumor-assessment/)|骨肉癌| 3  |      |  相对  ||
+|名称|                                                    官网                                                    |   类型   | 类别 | 实例标签 | 类别平衡 | 文本描述 
+|:----------------:|:--------------------------------------------------------------------------------------------------------:|:------:|:--:|:----:|:----:|:----:|
+|AGGC2022|         [https://aggc22.grand-challenge.org/AGGC22/](https://aggc22.grand-challenge.org/AGGC22/)         |  前列腺癌  | 5  |  √   |  √   |
+|ARCH| [https://warwick.ac.uk/fac/cross_fac/tia/data/arch/](https://warwick.ac.uk/fac/cross_fac/tia/data/arch/) |   混合   | 2  |      |      |  √   
+|BACH|                                  [https://zenodo.org/records/3632035](https://zenodo.org/records/3632035)                                  |  乳腺癌   | 4  |  √   |  √   
+|BCNB|                  [https://bcnb.grand-challenge.org/](https://bcnb.grand-challenge.org/)                  |  乳腺癌   | 3  |  √   |      |
+|BRACS|[https://www.bracs.icar.cnr.it/download/](https://www.bracs.icar.cnr.it/download/)|  乳腺癌   |6|未调查
+|LC25000|[https://academictorrents.com/details/7a638ed187a6180fd6e464b3666a6ea0499af4af](https://academictorrents.com/details/7a638ed187a6180fd6e464b3666a6ea0499af4af)| 肺癌和结肠癌 | 5  |      |  √   |
+|MIDOG2022| [https://midog.deepmicroscopy.org/download-dataset/](https://midog.deepmicroscopy.org/download-dataset/) |   混合   | 6  |  √   |  相对  |   |
+|Osteo|[https://www.cancerimagingarchive.net/collection/osteosarcoma-tumor-assessment/](https://www.cancerimagingarchive.net/collection/osteosarcoma-tumor-assessment/)|  骨肉癌   | 3  |      |  相对  ||
 
 更多的下载方式可以参照 (图片来源于CPath-Omni)：
 <div align=center>
