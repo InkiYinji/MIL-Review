@@ -16,7 +16,7 @@
 |BACH|                                  [https://zenodo.org/records/3632035](https://zenodo.org/records/3632035)                                  | 乳腺癌  | 4  |  √   |  √   
 |BCNB|                  [https://bcnb.grand-challenge.org/](https://bcnb.grand-challenge.org/)                  | 乳腺癌  | 3  |  √   |      |
 |LC25000|[https://academictorrents.com/details/7a638ed187a6180fd6e464b3666a6ea0499af4af](https://academictorrents.com/details/7a638ed187a6180fd6e464b3666a6ea0499af4af)|肺癌和结肠癌| 5  |      |  √   |
-|MIDOG2022| [https://midog.deepmicroscopy.org/download-dataset/](https://midog.deepmicroscopy.org/download-dataset/) |  混合  | 6  | 未调查  | 未调查  | 未调查  |
+|MIDOG2022| [https://midog.deepmicroscopy.org/download-dataset/](https://midog.deepmicroscopy.org/download-dataset/) |  混合  | 6  |  √   |  相对  |   |
 |Osteo|[https://www.cancerimagingarchive.net/collection/osteosarcoma-tumor-assessment/](https://www.cancerimagingarchive.net/collection/osteosarcoma-tumor-assessment/)|骨肉癌| 3  |      |  相对  ||
 
 更多的下载方式可以参照 (图片来源于CPath-Omni)：
