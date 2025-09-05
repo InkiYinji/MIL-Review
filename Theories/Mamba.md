@@ -1,0 +1,8 @@
+[上一级](README.md)
+
+|                          方法名                           |                                                                                         团队                                                                                         |     期刊/会议     |                                                                                全称                                                                                 |                                                      思想                                                      | 领域  |
+:------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|:---:
+|M2amba|
+|                       GraphMamba                       |
+|                         MamMIL                         |
+| [**MambaMIL✳**](https://github.com/isyangshu/MambaMIL) | [香港科技大学](https://scholar.google.com/citations?user=6QlQF1oAAAAJ&hl=zh-CN&oi=sra) | [MICCAI'24](https://link.springer.com/chapter/10.1007/978-3-031-72083-3_28) | [MambaMIL: Enhancing long sequence modeling with sequence reordering in computational pathology](https://blog.csdn.net/weixin_44575152/article/details/143690996) | [在MIL中引入Mamba的长序列建模，并提出SR-Mamba和Bi-Mamba两个增强插件](https://blog.csdn.net/qq_32701507/article/details/136762360) |WSI
