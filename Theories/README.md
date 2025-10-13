@@ -17,4 +17,4 @@
 9. [数据增强](9DataEnhancement.md)
 10. [对抗生成网络](10GAN.md)
 11. [大语言模型](11LLM.md)
-12. [实例监督](12InstanceSupervision.py)
+12. [实例监督](12InstanceSupervision.md)

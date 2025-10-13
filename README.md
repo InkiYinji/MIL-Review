@@ -12,7 +12,7 @@
    - [数据增强](Theories/9DataEnhancement.md)
    - [对抗生成网络](Theories/10GAN.md)
    - [大语言模型](Theories/11LLM.md)
-   - [实例监督](Theories/12InstanceSupervision.py)
+   - [实例监督](Theories/12InstanceSupervision.md)
 2. [MIL交叉领域](Extensions/README.md)
    - [多模态多示例 (M3IL)](Extensions/M3IL.md)
    - [多示例偏标签 (MIPL)](Extensions/MIPL.md)
