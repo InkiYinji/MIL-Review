@@ -18,3 +18,5 @@
 10. [对抗生成网络](10GAN.md)
 11. [大语言模型](11LLM.md)
 12. [实例监督](12InstanceSupervision.md)
+13. [自编码器](13AutoEncoder.md)
+14. [人机交互](14HumanIntervention.md)

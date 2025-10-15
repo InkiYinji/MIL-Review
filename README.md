@@ -13,6 +13,8 @@
    - [对抗生成网络](Theories/10GAN.md)
    - [大语言模型](Theories/11LLM.md)
    - [实例监督](Theories/12InstanceSupervision.md)
+   - [自编码器](13AutoEncoder.md)
+   - [人机交互](14HumanIntervention.md)
 2. [MIL交叉领域](Extensions/README.md)
    - [多模态多示例 (M3IL)](Extensions/M3IL.md)
    - [多示例偏标签 (MIPL)](Extensions/MIPL.md)
