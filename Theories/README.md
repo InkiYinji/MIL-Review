@@ -22,3 +22,5 @@
 14. [人机交互](14HumanIntervention.md)
 15. [类别Token](15ClassToken.md)
 16. [贝叶斯网络](16Bayesian.md)
+17. [伪包生成](17PseudoBag.md)
+18. [实例伪标签](18InstancePseudoLabel.md)

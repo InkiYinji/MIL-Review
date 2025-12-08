@@ -17,6 +17,8 @@
    - [人机交互](Theories/14HumanIntervention.md)
    - [类别Token](Theories/15ClassToken.md)
    - [贝叶斯网络](Theories/16Bayesian.md)
+   - [伪包生成](Theories/17PseudoBag.md)
+   - [实例伪标签](Theories/18InstancePseudoLabel.md)
 2. [MIL交叉领域](Extensions/README.md)
    - [多模态多示例 (M3IL)](Extensions/M3IL.md)
    - [多示例偏标签 (MIPL)](Extensions/MIPL.md)
