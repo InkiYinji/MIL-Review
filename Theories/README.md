@@ -24,3 +24,4 @@
 16. [贝叶斯网络](16Bayesian.md)
 17. [伪包生成](17PseudoBag.md)
 18. [实例伪标签](18InstancePseudoLabel.md)
+19. [原型学习](19PrototypeLearning.md)
