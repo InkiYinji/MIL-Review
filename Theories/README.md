@@ -8,7 +8,7 @@
 # 目录
 1. [传统MIL方法](1Traditional.md) 
 2. [注意力网络](2Attention.md)
-3. [自监督学习](3SelfSupervised.md)
+3. [对比学习/协同学习](3ContrastiveCollaborative.md)
 4. [因果推断/介入学习](4CausalInference.md)
 5. [图神经网络](5GNN.md)
 6. [Mamba](6Mamba.md)

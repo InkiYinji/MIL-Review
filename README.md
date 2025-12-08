@@ -3,7 +3,7 @@
 1. [MIL理论概述](Theories/README.md)
    - [传统MIL方法](Theories/1Traditional.md) 
    - [注意力网络✳](Theories/2Attention.md)
-   - [自监督学习](Theories/3SelfSupervised.md)
+   - [对比学习/协同学习](Theories/3ContrastiveCollaborative.md)
    - [因果推断/介入学习](Theories/4CausalInference.md)
    - [图神经网络](Theories/5GNN.md)
    - [Mamba](Theories/6Mamba.md)
