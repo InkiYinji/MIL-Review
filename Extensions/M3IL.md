@@ -3,6 +3,7 @@
 ---
 |                          方法名                           |团队|期刊/会议|全称|思想|领域
 :------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------:|:---:|:---:|:------------------------:|:---:
+|
 | [**LaDM3IL✳**](https://github.com/Josie-xufan/LaDM3IL) |[上海科技大学](https://scholar.google.com/citations?user=7XOW0wcAAAAJ&hl=zh-CN&oi=sra)|AAAI'24|[A label disambiguation-based multimodal massive multiple instance learning](https://inkiyinji.blog.csdn.net/article/details/137521297)|基于标签消歧实现多模态多示例的免疫库分类|IRC
 |         [MDDP](https://github.com/lhaof/MDDP)          |[香港中文大学](https://scholar.google.com/citations?user=ugBEYC4AAAAJ&hl=zh-CN&oi=sra)|ACM MM'24|[Multi-modal denoising diffusion pre-training for whole-slide image](https://blog.csdn.net/weixin_44575152/article/details/142067906)|结合H&E和IHC图像对来训练去噪扩散模型，且能够用于增强已有的WSI数据集|WSI|
 |  [ViLa-MIL](https://github.com/Jiangbo-Shi/ViLa-MIL)   |[西安交通大学](https://scholar.google.com/citations?user=FhR6erIAAAAJ)|CVPR'24|ViLa-MIL: Dual-scale vision-language multiple instance learning for whole slide image classification ([附录](https://openaccess.thecvf.com/content/CVPR2024/supplemental/Shi_ViLa-MIL_Dual-scale_Vision-Language_CVPR_2024_supplemental.pdf))|提出了一种基于冻结大型语言模型 (LLM) 的双尺度视觉描述性文本提示，并有效地转移到WSI的预测上|WSI
