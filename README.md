@@ -15,6 +15,7 @@
    - [实例监督](Theories/12InstanceSupervision.md)
    - [自编码器](Theories/13AutoEncoder.md)
    - [人机交互](Theories/14HumanIntervention.md)
+   - [类别Token](Theories/15ClassToken.md)
 2. [MIL交叉领域](Extensions/README.md)
    - [多模态多示例 (M3IL)](Extensions/M3IL.md)
    - [多示例偏标签 (MIPL)](Extensions/MIPL.md)
