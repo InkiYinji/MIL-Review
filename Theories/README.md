@@ -20,3 +20,4 @@
 12. [实例监督](12InstanceSupervision.md)
 13. [自编码器](13AutoEncoder.md)
 14. [人机交互](14HumanIntervention.md)
+15. [类别Token](15ClassToken.md)
