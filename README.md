@@ -5,20 +5,34 @@
 
 建议先读单模态总览与 1、2 类建立基线，再按研究问题选机制分支；要选数据集或复现实验，则到 Applications 核对包定义、原始标签、患者级划分和数据授权。一个方法只在主贡献所属页面保留一行，特殊方向（如真实的人类反馈、概率校准）仍单独呈现。
 
-1. [单模态 MIL 方法路线](Theories/README.md)：从[传统方法](Theories/1Traditional.md)和[注意力网络✳](Theories/2Attention.md)入门，按“包构造—实例表征与选择—关系聚合—可靠性与效率”追踪核心机制；**不限于 WSI**，其他单模态应用也按主要方法归类。
+1. [单模态 MIL 方法路线](Theories/README.md)：按方法的主要贡献组织，**不限于 WSI**。建议从固定的第 1、2 类入门，再按研究问题选择分支：
+   - [1 传统 MIL 方法](Theories/1Traditional.md)
+   - [2 注意力网络✳](Theories/2Attention.md)
+   - [3 实例关系与空间结构](Theories/3RelationStructure.md)
+   - [4 序列与长程依赖](Theories/4SequenceModeling.md)
+   - [5 表征与原型学习](Theories/5RepresentationLearning.md)
+   - [6 实例选择与实例级学习](Theories/6InstanceLearning.md)
+   - [7 包构造与数据增强](Theories/7BagAugmentation.md)
+   - [8 记忆与先验知识](Theories/8KnowledgeGuidance.md)
+   - [9 因果与稳健学习](Theories/9CausalRobustness.md)
+   - [10 可解释性与人机协作](Theories/10InterpretabilityHuman.md)
+   - [11 概率、不确定性与校准](Theories/11UncertaintyCalibration.md)
+   - [12 效率、蒸馏与训练稳定性](Theories/12EfficiencyDistillation.md)
+   - [13 任务结构与临床目标](Theories/13TaskAwareObjectives.md)
 2. [Multimodal：大模型与多模态 MIL](Multimodal/README.md)：单列视觉语言模型、大模型引导及额外模态参与训练或推理的方法。
 3. [MIL交叉领域](Extensions/README.md)
    - [多示例偏标签 (MIPL)](Extensions/MIPL.md)
    - [多示例多标签 (MIML)](Extensions/MIML.md)
-   - [多示例对抗攻击及防御](Extensions/MILAttackDefense.md)
    - [多示例正和无标签学习 (PU-MIL)](Extensions/PU-MIL.md)
-   - [多示例分布外检测 (MIL-OOD)](Extensions/MIL-OOD.md)
    - [多示例主动学习](Extensions/MILActive.md)
+   - [多示例分布外检测 (MIL-OOD)](Extensions/MIL-OOD.md)
+   - [多示例对抗攻击及防御](Extensions/MILAttackDefense.md)
 4. [MIL应用领域](Applications/README.md)
    - [病理全切片 (WSI)](Applications/WSI.md)
    - [乳腺 X 线影像](Applications/Mammography.md)
    - [眼底影像](Applications/Fundus.md)
    - [超声影像](Applications/Ultrasound.md)
+   - [显微成像与高内涵筛选](Applications/Microscopy.md)
    - [视频异常检测 (VAD)](Applications/VAD.md)
    - [免疫库分类](Applications/IRC.md)
 
