@@ -4,7 +4,7 @@
 
 这里收录利用**额外模态、文本语义或预训练大模型**改变 MIL 学习过程的方法，与[单模态 MIL 方法路线](../Theories/README.md)并列；不局限于 WSI。判断时同时记录训练和推理阶段：有的方法训练时借助另一模态，部署时仍只输入图像；有的方法在推理时融合图像与临床信息。仅使用普通预训练视觉编码器、没有跨模态或大模型适配贡献的方法仍按主要 MIL 机制归入单模态路线。
 
-每篇论文在本页只出现一次。视觉语言模型同时属于“大模型”和“多模态”时，按其主要贡献选择下面的小节，不重复列表。
+每篇论文在本页只出现一次。视觉语言模型同时属于“大模型”和“多模态”时，按其主要贡献选择下面的小节，不重复列表。各表按所标注的正式期刊/会议年份降序排列；同年不在缺少可靠日期时推断先后。
 
 ## 视觉语言与大模型引导
 
@@ -36,6 +36,6 @@
 
 |资源|原文 / 代码|为何放在此处|
 |:---|:---|:---|
+|Digepath|[npj Digital Medicine'26 原文](https://www.nature.com/articles/s41746-026-02684-5)|胃肠病理专科大模型；仅作相关资源，不计入直接 MIL 方法数。|
 |CPath-Omni|[CVPR'25 原文](https://openaccess.thecvf.com/content/CVPR2025/html/Sun_CPath-Omni_A_Unified_Multimodal_Foundation_Model_for_Patch_and_Whole_CVPR_2025_paper.html) / [代码](https://github.com/PathFoundation/CPath-Omni)|统一 patch 与 WSI 的多模态病理基座，可用于理解其与 MIL 聚合器的接口；不与直接 MIL 新方法混计。|
 |OmiCLIP|[Nature Methods'25 原文](https://www.nature.com/articles/s41592-025-02707-1)|对齐病理图像与空间转录组的视觉组学基座；是相关表征资源，不是直接 MIL 聚合器。|
-|Digepath|[npj Digital Medicine'26 原文](https://www.nature.com/articles/s41746-026-02684-5)|胃肠病理专科大模型；仅作相关资源，不计入直接 MIL 方法数。|

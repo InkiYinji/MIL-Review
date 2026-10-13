@@ -10,7 +10,7 @@
 3. [MIL交叉领域](Extensions/README.md)
    - [多示例偏标签 (MIPL)](Extensions/MIPL.md)
    - [多示例多标签 (MIML)](Extensions/MIML.md)
-   - [多示例对抗攻击及防御](Extensions/MILAttackDenfense.md)
+   - [多示例对抗攻击及防御](Extensions/MILAttackDefense.md)
    - [多示例正和无标签学习 (PU-MIL)](Extensions/PU-MIL.md)
    - [多示例分布外检测 (MIL-OOD)](Extensions/MIL-OOD.md)
    - [多示例主动学习](Extensions/MILActive.md)

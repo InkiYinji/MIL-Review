@@ -1,11 +1,18 @@
-[上一级](https://github.com/InkiYinji/MIL-Review/blob/main/README.md)
+[上一级](../README.md)
 
-# 目录
-大模型与多模态 MIL 已成为[独立分支](../Multimodal/README.md)。
+# MIL 交叉学习设置
 
-1. [多示例偏标签](MIPL.md)
-2. [多示例多标签](MIML.md)
-3. [多示例对抗攻击及防御](MILAttackDenfense.md)
-4. [多示例正和无标签学习](PU-MIL.md)
-5. [多示例分布外检测](MIL-OOD.md)
-6. [多示例主动学习](MILActive.md)
+本区按**监督形式与学习设置**组织 MIL 的交叉问题，不按注意力、图或 Mamba 等网络组件分类；这些核心机制见[单模态方法路线](../Theories/README.md)，额外模态或大模型实质参与学习见 [Multimodal](../Multimodal/README.md)，疾病、数据集与包构造见 [Applications](../Applications/README.md)。
+
+同一论文只在最能代表其**主要研究问题**的表格中列一次。这里保留六列表格；各页按所标注的正式期刊/会议年份从新到旧排列。同年若缺少可核验的发表日期，不推断月日先后。
+
+|研究问题|入口|与相邻方向的区别|
+|:---|:---|:---|
+|一个包对应多个候选标签，只有一个为真|[多示例偏标签（MIPL）](MIPL.md)|同时消除实例与标签两层歧义|
+|一个包可同时拥有多个真实标签|[多示例多标签（MIML）](MIML.md)|不同于“候选标签中只有一个正确”的 MIPL|
+|仅有正包和无标签包|[正包与无标签学习（PU-MIL）](PU-MIL.md)|重点是缺失的负包监督，不是普通伪标签|
+|有限标注预算下选择要标注的对象|[主动学习与 MIL](MILActive.md)|主动查询策略与医生反馈式训练不是同一问题|
+|测试包可能来自训练分布之外|[MIL 分布外检测（MIL-OOD）](MIL-OOD.md)|强调识别未知分布；一般域泛化仍见理论 9 类|
+|恶意扰动与相应防御|[对抗攻击与防御](MILAttackDefense.md)|攻击者驱动的扰动，不等同自然分布偏移|
+
+旧的 [M3IL 路径](M3IL.md)和拼写错误的 [MILAttackDenfense 路径](MILAttackDenfense.md)仅作兼容入口，不再维护第二份论文表。
