@@ -1,9 +1,17 @@
-[上一级](https://github.com/InkiYinji/MIL-Review/blob/main/README.md)
+[上一级](../README.md)
 
-对于应用，重点关注数据集本身，以及相应的数据预处理策略。
+# MIL 应用与数据集
 
-# 目录
+本仓库研究的是 **MIL 方法**，不是单一疾病或 WSI 专题。这里按数据来源组织常用基准；一种疾病也可能跨模态，例如“乳腺癌”既可出现在病理 WSI，也可出现在乳腺 X 线或超声。方法机制请返回[单模态路线](../Theories/README.md)或[Multimodal](../Multimodal/README.md)。
 
-1. [WSI](WSI.md)
-2. [VAD](VAD.md)
-3. [IRC](IRC.md)
+|应用|常见包 / 实例定义|数据集入口|
+|:---|:---|:---|
+|[病理全切片 WSI](WSI.md)|切片 / patch，或患者 / 多张切片|CAMELYON、TCGA、PANDA 等|
+|[乳腺 X 线影像](Mammography.md)|检查或乳房 / 视图、局部候选区域|CBIS-DDSM、VinDr-Mammo、EMBED|
+|[眼底影像](Fundus.md)|眼或受检者 / 视野、局部区域|EyePACS、Messidor-2|
+|[超声影像](Ultrasound.md)|检查或患者 / 帧、局部区域|BUSI 等；需核查包构造|
+|[显微成像与高内涵筛选](Microscopy.md)|实验孔或样本 / 视野、细胞|BBBC021、BBBC047|
+|[视频异常检测 VAD](VAD.md)|视频 / 片段|见页面|
+|[免疫库分类 IRC](IRC.md)|免疫库 / 序列或克隆|见页面|
+
+“常见”表示在 MIL 研究中反复作为基准或具有明确复用价值，**不是未经统计的使用频次排名**。同一数据集可被改造成不同 MIL 任务；比较结果时应记录包单位、标签生成方式、患者级划分、预处理、特征提取器和数据版本。原始数据有实例标注，也不意味着评测时可以把它用于训练。

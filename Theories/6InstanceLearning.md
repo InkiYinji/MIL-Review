@@ -6,6 +6,8 @@
 
 |方法名|团队|期刊/会议|全称|思想|领域|
 |:---|:---|:---|:---|:---|:---|
+|PaM-MIL|[香港科技大学（广州）](https://www.hkust-gz.edu.cn/)|[CVPR Findings'26](https://openaccess.thecvf.com/content/CVPR2026F/html/Guo_PaM-MIL_Proliferation_and_Metastasis_Enhanced_Localization_for_Multiple_Instance_Learning_CVPRF_2026_paper.html)|PaM-MIL: Proliferation and metastasis enhanced localization for multiple instance learning on pathology images|以增殖和转移相关的证据增强阳性实例定位|WSI|
+|[CIB-MIL](https://github.com/TencentAILabHealthcare/CIB-MIL)|[腾讯 AI Lab](https://ai.tencent.com/ailab/)|[MIA'26](https://doi.org/10.1016/j.media.2026.104192)|Collaborative instance-level and bag-level multiple instance learning with label disambiguation for whole slide image analysis|以实例/包协同学习和标签消歧缓解弱监督噪声|WSI|
 |[OODML](https://github.com/titizheng/OODML)|[哈尔滨工业大学](https://vilab.hit.edu.cn/)|[AAAI'25](https://ojs.aaai.org/index.php/AAAI/article/view/33154/35309)|[OODML: Whole slide image classification meets online pseudo-supervision and dynamic mutual learning](https://inkiyinji.blog.csdn.net/article/details/147376912)|在线更新实例伪标签与记忆表征，并通过动态互学习改进预测|WSI|
 |PAMIL（伪标签注意力）|云南大学|[EAAI'25](https://www.sciencedirect.com/science/article/pii/S0952197624020670)|Pseudo-label attention-based multiple instance learning for whole slide image classification|用高低置信实例生成伪标签，引导注意力聚合与特征微调|WSI|
 |[SMMILe](https://github.com/ZeyuGaoAi/SMMILe)|[剑桥大学](https://scholar.google.com/citations?user=CeP6dkcAAAAJ)|[Nature Cancer'25](https://www.nature.com/articles/s43018-025-01060-8.pdf)|SMMILe enables accurate spatial quantification in digital pathology using multiple-instance learning|基于超块进行实例级空间量化，同时完成切片级分类|WSI|

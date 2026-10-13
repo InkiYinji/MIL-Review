@@ -1,7 +1,12 @@
 # 1 基本说明
-本项目在于能够让大家能够更加快速地了解MIL这个领域，因此将从以下几个方面重点介绍MIL (这里不详细介绍每一篇文章，只做概述)：
-1. [单模态 MIL 方法路线](Theories/README.md)：从[传统方法](Theories/1Traditional.md)和[注意力网络✳](Theories/2Attention.md)入门，再按实例关系、序列建模、表征学习、实例选择、包构造、记忆与先验、稳健学习查找方法；以仅输入 WSI 的方法为主，也保留通用 MIL 基础。
-2. [大模型与多模态 MIL](FoundationMultimodal/README.md)：单列视觉语言模型、大模型引导及额外模态参与训练或推理的方法。
+本项目希望帮助读者快速建立 MIL 的方法地图，并找到相应论文、应用与数据入口。这里提供导航和简明机制概述，不逐篇复述论文。
+
+**先看总览**：MIL 以一个包（bag）及其弱标签学习，包内实例（instance）通常缺少可靠标签。方法研究回答的是四个连续问题：如何构造包，如何学习并挑选实例证据，如何聚合实例之间的关系，以及如何让包级预测更稳健、可解释且高效。[单模态路线](Theories/README.md)按这些主要机制组织论文，传统 MIL 与注意力 MIL 固定为 1、2 类；跨模态信息或大模型实质参与学习的工作另进 [Multimodal](Multimodal/README.md)。WSI、乳腺 X 线、眼底、超声、视频和免疫库是**应用与数据**，不是与注意力/图网络并列的方法类别。
+
+建议先读单模态总览与 1、2 类建立基线，再按研究问题选机制分支；要选数据集或复现实验，则到 Applications 核对包定义、原始标签、患者级划分和数据授权。一个方法只在主贡献所属页面保留一行，特殊方向（如真实的人类反馈、概率校准）仍单独呈现。
+
+1. [单模态 MIL 方法路线](Theories/README.md)：从[传统方法](Theories/1Traditional.md)和[注意力网络✳](Theories/2Attention.md)入门，按“包构造—实例表征与选择—关系聚合—可靠性与效率”追踪核心机制；**不限于 WSI**，其他单模态应用也按主要方法归类。
+2. [Multimodal：大模型与多模态 MIL](Multimodal/README.md)：单列视觉语言模型、大模型引导及额外模态参与训练或推理的方法。
 3. [MIL交叉领域](Extensions/README.md)
    - [多示例偏标签 (MIPL)](Extensions/MIPL.md)
    - [多示例多标签 (MIML)](Extensions/MIML.md)
@@ -10,7 +15,10 @@
    - [多示例分布外检测 (MIL-OOD)](Extensions/MIL-OOD.md)
    - [多示例主动学习](Extensions/MILActive.md)
 4. [MIL应用领域](Applications/README.md)
-   - [全幻灯片分类 (WSI)](Applications/WSI.md)
+   - [病理全切片 (WSI)](Applications/WSI.md)
+   - [乳腺 X 线影像](Applications/Mammography.md)
+   - [眼底影像](Applications/Fundus.md)
+   - [超声影像](Applications/Ultrasound.md)
    - [视频异常检测 (VAD)](Applications/VAD.md)
    - [免疫库分类](Applications/IRC.md)
 
@@ -41,13 +49,13 @@
 - **注3**：承2，如果包含博客讲解，可以点击其全称获取；
 - **注4**：承3，如果包含论文原文，可以点击会议缩写名获取；
 - **注5**：一些缩写：
-  - WSI：全幻灯片分类 (医学领域，目前最热门的MIL应用)；
+  - WSI：病理全切片图像，可用于分类、分级、预后等多种 MIL 任务；
   - VAD：视频异常检测；
   - ECG：心电图；
   - IRC：免疫库分类；
 - **注6**：四个入口的侧重点不同：
-    - [单模态 MIL 方法路线](Theories/README.md)：以 WSI 单输入方法为主，梳理核心思路、技术关系与阅读顺序；
-    - [大模型与多模态 MIL](FoundationMultimodal/README.md)：额外模态或预训练大模型如何参与 MIL；
+    - [单模态 MIL 方法路线](Theories/README.md)：不限于 WSI，梳理核心思路、技术关系与阅读顺序；
+    - [大模型与多模态 MIL](Multimodal/README.md)：额外模态或预训练大模型如何参与 MIL；
     - [MIL 交叉领域](Extensions/README.md)：MIL 与多标签、偏标签、对抗攻击、分布外检测等任务的结合；
     - [MIL 应用领域](Applications/README.md)：应用场景、数据集及其处理；
 - **注7**：**✳标识的方法适合入门，★标识的方法相对简单**；

@@ -6,6 +6,8 @@
 
 |方法名|团队|期刊/会议|全称|思想|领域|
 |:---|:---|:---|:---|:---|:---|
+|PathRWKV|[新加坡国立大学](https://nus.edu.sg/)|[TMI'26](https://doi.org/10.1109/TMI.2026.3700967)|PathRWKV: Enhancing whole slide image inference with asymmetric recurrent modeling|以非对称循环序列模块建模大规模切片的长程依赖|WSI|
+|[PSMIL](https://github.com/YuqiZhang-Buaa/PSMIL)|[北京航空航天大学](https://www.buaa.edu.cn/)|[PR'26](https://doi.org/10.1016/j.patcog.2026.113151)|Prioritized scanning: Combining spatial information multiple instance learning for computational pathology|按空间位置和实例重要性扫描切片特征|WSI|
 |[GraphMamba](https://github.com/titizheng/GraphMamba)|[哈尔滨工业大学](https://scholar.google.com/citations?user=AJ5zl-wAAAAJ)|[PR](https://www.sciencedirect.com/science/article/pii/S0031320325004285)|GraphMamba: Whole slide image classification meets graph-driven selective state space model|以组内和跨组图 Mamba 建模不同层次的实例关系|WSI|
 |[GMMamba](https://github.com/titizheng/GMMamba)|[哈尔滨工业大学](https://scholar.google.com/citations?user=AJ5zl-wAAAAJ)|[ICCV'25](https://openaccess.thecvf.com/content/ICCV2025/papers/Zheng_GMMamba_Group_Masking_Mamba_for_Whole_Slide_Image_Classification_ICCV_2025_paper.pdf)|GMMamba: Group masking Mamba for whole slide image classification|利用组内掩码Mamba进行选择性实例探索，并结合跨组超特征采样改善长程关系|WSI|
 |[M3amba](https://github.com/titizheng/M3amba)|[哈尔滨工业大学](https://scholar.google.com/citations?user=AJ5zl-wAAAAJ)|[CVPR'25](https://openaccess.thecvf.com/content/CVPR2025/papers/Zheng_M3amba_Memory_Mamba_is_All_You_Need_for_Whole_Slide_CVPR_2025_paper.pdf)|M3amba: Memory Mamba is all you need for whole slide image classification|记忆驱动的Mamba网络，以充分探索实例之间的全局潜在关系|WSI|

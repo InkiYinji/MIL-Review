@@ -6,6 +6,7 @@
 
 |方法名|团队|期刊/会议|全称|思想|领域|
 |:---|:---|:---|:---|:---|:---|
+|[DPBAug](https://github.com/JiuyangDong/DPBAug)|[哈尔滨工业大学](https://www.hit.edu.cn/)|[TMI'25](https://doi.org/10.1109/TMI.2025.3569941)|Disentangled pseudo-bag augmentation for whole slide image multiple instance learning|先按表型划分低噪声伪包，再跨切片融合增强训练|WSI|
 |[MAP-MIL](https://github.com/Pikachu-one/MAP-MIL)|[东北林业大学](https://scholar.google.com/citations?hl=zh-CN&user=aHuB264AAAAJ)|[ESWA'25](https://www.sciencedirect.com/science/article/pii/S0957417425041405)|MAP-MIL: Dual-branch collaborative learning of mask enhancement and pseudo-bag generation for whole slide image classification|以掩码增强和注意力引导的伪包双分支协同训练|WSI|
 |[PCR-MIL](https://github.com/JingjiaoLou/PCR-MIL)|山东大学|[MICCAI'25](https://papers.miccai.org/miccai-2025/paper/4174_paper.pdf)|PCR-MIL: Phenotype clustering reinforced multiple instance learning for whole slide image classification|按表型聚类构造低噪声伪包，并用强化学习优化特征提取|WSI|
 |[PseMix](https://github.com/liupei101/PseMix)|电子科技大学|TMI‘24|Pseudo-bag mixup augmentation for multiple instance learning-based whole slide image classification|在伪包之间做 Mixup，扩充 WSI 弱监督训练样本|WSI|
