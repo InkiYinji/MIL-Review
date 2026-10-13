@@ -1,27 +1,28 @@
-[上一级](https://github.com/InkiYinji/MIL-Review/blob/main/README.md)
+[上一级](../README.md)
 
-# 总览
-之所以优先介绍传统MIL方法，究其原因为：
-1. 传统MIL方法包含众多实用策略，其思想内核至今仍被前沿的深度MIL方法使用；
-2. 传统方法均可被深度MIL直接或间接复刻，通过对齐首要了解，可以为后续深度MIL方法学习打下基础；
+# 单模态 MIL 方法路线
 
-# 目录
-1. [传统MIL方法](1Traditional.md) 
-2. [注意力网络](2Attention.md)
-3. [对比学习/协同学习](3ContrastiveCollaborative.md)
-4. [因果推断/介入学习](4CausalInference.md)
-5. [图神经网络](5GNN.md)
-6. [Mamba](6Mamba.md)
-7. [记忆库/知识库](7MemoryBank.md)
-8. [强化学习](8ReinforcementLearning.md)
-9. [数据增强](9DataEnhancement.md)
-10. [对抗生成网络](10GAN.md)
-11. [大语言模型](11LLM.md)
-12. [实例监督](12InstanceSupervision.md)
-13. [自编码器](13AutoEncoder.md)
-14. [人机交互](14HumanIntervention.md)
-15. [类别Token](15ClassToken.md)
-16. [贝叶斯网络](16Bayesian.md)
-17. [伪包生成](17PseudoBag.md)
-18. [实例伪标签](18InstancePseudoLabel.md)
-19. [原型学习](19PrototypeLearning.md)
+本路线以**仅输入 WSI 的方法**为主，也保留通用 MIL 基础方法。阅读深度 MIL 方法时，先问它主要改变了哪一步：**怎样构造包 → 怎样学习实例表征与选择证据 → 怎样建模实例关系并聚合 → 怎样让决策更可靠**。传统方法和注意力聚合是理解后续工作的基础，因此固定为第 1、2 类。引入文本、大模型或其他模态的方法另见[大模型与多模态 MIL](../FoundationMultimodal/README.md)。
+
+每篇论文只在**主要贡献**所属的页面保留一行；确实涉及两个核心方向时，可以在文字中说明次要方向，不在多个表格重复收录。分类依据是论文解决的主要问题和核心机制，而非模型里出现过的每个模块。
+
+|顺序|分类|收录边界|可以从这些方法开始|
+|:---:|:---|:---|:---|
+|1|[传统 MIL 方法](1Traditional.md)|实例方法、包方法和嵌入方法|ISK、miFV|
+|2|[注意力网络](2Attention.md)|主要改进注意力分配或聚合|ABMIL/GAMIL、ACMIL|
+|3|[实例关系与空间结构](3RelationStructure.md)|图、空间邻域、多尺度和全局/局部关系|NAGCN、WiKG|
+|4|[序列与长程依赖](4SequenceModeling.md)|Transformer、Mamba 等长序列建模|TransMIL、MambaMIL|
+|5|[表征与原型学习](5RepresentationLearning.md)|自监督/对比学习、原型与概念表征|ItS2CLR、ProtoMIL|
+|6|[实例选择与实例级学习](6InstanceLearning.md)|关键实例挖掘、伪标签和动态采样|MHIM-MIL、SMMILe|
+|7|[包构造与数据增强](7BagAugmentation.md)|伪包、包级采样和特征混合|DTFD-MIL、PseMix|
+|8|[记忆与先验知识](8KnowledgeGuidance.md)|从单一输入或训练包中提取记忆和先验|DKMIL、Twin-MIL|
+|9|[因果与稳健学习](9CausalRobustness.md)|因果介入、去混淆和不确定性建模|IBMIL、SIB-MIL|
+
+## 如何处理交叉方法
+
+- **看主要思路**：RGMIL 以图建模为主，强化学习用于搜索图结构，主类为 3；PCR-MIL 以构造低噪声伪包为主，强化学习用于优化特征提取，主类为 7。
+- **区分骨架和训练信号**：ItS2CLR 用伪标签支持监督对比学习，其主要目标是学习更好的实例表征，主类为 5。
+- **不要把组件升为顶层类**：类别 token、强化学习、自编码器和人机干预可以在方法简介中说明；只有形成足够清楚、独立的研究主线时再单独成类。
+- **先辨认论文，再辨认缩写**：本库同时收录两篇简称 PAMIL 的不同论文，表格中以“动态策略”和“伪标签注意力”加以区分。`CAMIL` 与 `CaMIL` 也不是同一方法。
+
+表格沿用原有的“方法名、团队、期刊/会议、全称、思想、领域”六列；“思想”尽量用一句话写清主要机制。✳表示适合入门，★表示相对简单。

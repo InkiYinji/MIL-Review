@@ -1,6 +1,5 @@
-[上一级](README.md)
+[返回方法分类](README.md)
 
-|                                          方法名                                           |                                                        团队                                                         |                    期刊/会议                    |                                                                                              全称                                                                                              |                         思想                         | 领域  |
-:--------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------:|:-------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------:|:---:
-|[SMMILe](https://github.com/ZeyuGaoAi/SMMILe)|[剑桥大学](https://scholar.google.com/citations?user=CeP6dkcAAAAJ)|[Nature Cancer'25](https://www.nature.com/articles/s43018-025-01060-8.pdf)|SMMILe enables accurate spatial quantification in digital pathology using multiple-instance learning|基于超块的可测量MIL，旨在同时进行空间量化和分类|WSI
-| [ItS2CLR](https://github.com/Kangningthu/ItS2CLR) |[纽约大学](https://scholar.google.com/citations?user=F3F2qAkAAAAJ&hl=zh-CN&oi=sra)| CVPR'23 |[Multiple instance learning via iterative self-paced supervised contrastive learning](https://inkiyinji.blog.csdn.net//article/details/133066363)|实例伪标签提升表示学习质量，并通过自步采用策略优化|WSI
+# 分类已调整
+
+本页原有方法已按主要贡献归入[表征与原型学习](5RepresentationLearning.md)、[实例选择与实例级学习](6InstanceLearning.md)。旧路径保留，便于从已有链接进入新版分类。

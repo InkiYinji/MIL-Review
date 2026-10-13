@@ -1,8 +1,5 @@
-[上一级](README.md)
+[返回方法分类](README.md)
 
----
+# 分类已调整
 
-|                   方法名                    |团队|期刊/会议|全称|思想|领域|
-:----------------------------------------:|:-----------------------------------------------------------------------------------------------------------------:|:---:|:---:|:--------------------------------------------------:|:---:
-|                **CaMIL✳**                 |[华东师范大学](https://scholar.google.com/citations?user=whZnq5wAAAAJ&hl=zh-CN&oi=sra)|AAAI'24|[CaMIL: Causal multiple instance learning for whole slide image classification](https://inkiyinji.blog.csdn.net/article/details/137237682)|在IBMIL的基础上，改进去混淆介入式学习|WSI 
-| [IBMIL](https://github.com/HHHedo/IBMIL) |[上海交通大学](https://scholar.google.com/citations?user=-ok791gAAAAJ&hl=zh-CN&oi=sra)|CVPR'23|Interventional bag multi-instance learning on whole-slide pathological images|基于训练模型和$k$Means的全局特征提取|WSI
+本页原有方法已按主要贡献归入[因果与稳健学习](9CausalRobustness.md)。旧路径保留，便于从已有链接进入新版分类。
