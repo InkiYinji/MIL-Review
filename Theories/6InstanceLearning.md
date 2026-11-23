@@ -6,6 +6,7 @@
 
 |方法名|团队|期刊/会议|全称|思想|领域|
 |:---|:---|:---|:---|:---|:---|
+|BAMIL|[北京理工大学](https://cs.bit.edu.cn/szdw/jsml/bssds/c228ea3dc66a43558175bffd2e14eb96.htm) / [北京师范大学](https://www.bnu.edu.cn/)|[ACM MM'26](https://doi.org/10.1145/3767308.3836391)|BAMIL: Towards Finer Temporal EEG Event Detection via Boundary-Aware Multi-Instance Learning|用事件、边界和非事件三态建模，从弱包标签学习定位脑电事件的时间边界|脑电（EEG）|
 |PaM-MIL|[香港科技大学（广州）](https://www.hkust-gz.edu.cn/)|[CVPR Findings'26](https://openaccess.thecvf.com/content/CVPR2026F/html/Guo_PaM-MIL_Proliferation_and_Metastasis_Enhanced_Localization_for_Multiple_Instance_Learning_CVPRF_2026_paper.html)|PaM-MIL: Proliferation and metastasis enhanced localization for multiple instance learning on pathology images|以增殖和转移相关的证据增强阳性实例定位|WSI|
 |[CIB-MIL](https://github.com/TencentAILabHealthcare/CIB-MIL)|[腾讯 AI Lab](https://ai.tencent.com/ailab/)|[MIA'26](https://doi.org/10.1016/j.media.2026.104192)|Collaborative instance-level and bag-level multiple instance learning with label disambiguation for whole slide image analysis|以实例/包协同学习和标签消歧缓解弱监督噪声|WSI|
 |[OODML](https://github.com/titizheng/OODML)|[哈尔滨工业大学](https://vilab.hit.edu.cn/)|[AAAI'25](https://ojs.aaai.org/index.php/AAAI/article/view/33154/35309)|[OODML: Whole slide image classification meets online pseudo-supervision and dynamic mutual learning](https://inkiyinji.blog.csdn.net/article/details/147376912)|在线更新实例伪标签与记忆表征，并通过动态互学习改进预测|WSI|

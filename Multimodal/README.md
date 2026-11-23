@@ -10,6 +10,8 @@
 
 |方法名|团队|期刊/会议|全称|思想|领域|
 |:---|:---|:---|:---|:---|:---|
+|[MIND](https://github.com/junjianli106/MIND)|[中南大学](https://www.csu.edu.cn/)|[ACM MM'26](https://doi.org/10.1145/3767308.3835465)|MIND: Emulating Diagnostic Reasoning with Nested Descriptions for Few-Shot Whole Slide Image Classification|用大模型生成切片、组织结构和细胞形态三级描述，逐级对齐多倍率图像特征|WSI + 文本知识|
+|[C2UOT](https://github.com/hkustgary/C2UOT)（仓库暂为空）|[香港科技大学（广州）](https://www.hkust-gz.edu.cn/) / [筑波大学](https://www.tsukuba.ac.jp/) / [香港科技大学](https://hkust.edu.hk/)|[ACM MM'26](https://doi.org/10.1145/3767308.3836235)|Beyond Generic Alignment: Diagnostic Principle–Guided Instance-Concept Alignment for Few-shot Whole Slide Image Classification|以跨倍率组织结构与局部微环境语义约束非平衡最优传输，对齐图块与诊断概念|WSI + 文本知识|
 |[PLM-SynNet](https://github.com/mathfyy/PLM-SynNet)|[东北大学](https://www.neu.edu.cn/)|[TMI'26](https://doi.org/10.1109/TMI.2026.3657524)|PLM-SynNet: A pathology large model synergy network based on multi-instance learning for whole slide imaging classification|协同多个病理大模型的特征与 MIL 聚合，减少单一模型偏差|WSI + 病理大模型|
 |[DyKo](https://github.com/junjianli106/DyKo)|[中南大学](https://www.csu.edu.cn/)|[CVPR'26](https://openaccess.thecvf.com/content/CVPR2026/html/Li_Universal-to-Specific_Dynamic_Knowledge-Guided_Multiple_Instance_Learning_for_Few-Shot_Whole_Slide_CVPR_2026_paper.html)|Universal-to-specific: Dynamic knowledge-guided multiple instance learning for few-shot whole slide image classification|检索切片特异的视觉语言知识，引导少样本 MIL 聚合|WSI + 文本知识|
 |[MIL-Adapter](https://github.com/cvblab/MIL-Adapter)|[瓦伦西亚理工大学](https://www.upv.es/)|[MIA'26](https://doi.org/10.1016/j.media.2026.103964)|MIL-Adapter: Coupling multiple instance learning and vision-language adapters for few-shot slide-level classification|用视觉语言适配器增强少样本切片级 MIL|WSI + 视觉语言模型|

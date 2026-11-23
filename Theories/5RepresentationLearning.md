@@ -2,12 +2,14 @@
 
 # 表征与原型学习
 
-改进实例或包表征，包括对比学习、自监督预训练、原型与概念学习。
+改进实例或包表征，包括对比学习、自监督预训练、原型与概念学习，以及特征通道和几何结构建模。
 
 Giga-SSL、HiDisc 属于支持 MIL 的病理图像表征预训练工作，并非包级聚合器。
 
 |方法名|团队|期刊/会议|全称|思想|领域|
 |:---|:---|:---|:---|:---|:---|
+|CRP-MIL|[东北林业大学](https://www.nefu.edu.cn/) / [江西省妇幼保健院](https://jxsfybjyy.cn/index.php)|[NN'27](https://doi.org/10.1016/j.neunet.2026.109786)（2026 年在线）|CRP-MIL: A channel re-partitioning based multiple instance learning method for whole slide image classification|将特征通道分组，先在组内建模多尺度局部上下文，再以跨组注意力融合全局信息|WSI|
+|GHH-MIL|[西南财经大学](https://www.swufe.edu.cn/)|[ACM MM'26](https://doi.org/10.1145/3767308.3836376)|GHH-MIL: Geodesic Harmonic Hyper-sphere Multiple Instance Learning for Whole Slide Image Classification|将图块特征投影到单位超球面，再以球谐谱滤波和门控注意力聚合切片表征|WSI|
 |[MAMMOTH](https://github.com/mahmoodlab/mammoth)|[麻省理工学院](https://www.mit.edu/)|[ICLR'26](https://openreview.net/pdf?id=S5Io33pc78)|Mixture of mini experts: Overcoming the linear layer bottleneck in multiple instance learning|以轻量专家混合层替换通用特征到任务特征的线性瓶颈|WSI|
 |[MR-Block](https://github.com/BearCleverProud/MR-Block)|[香港中文大学](https://www.cuhk.edu.hk/)|[ICLR'26](https://openreview.net/pdf/c5170a6d4ea855344df3dcb7083f48e3f5015ff5.pdf)|Exploiting low-dimensional manifold of features for few-shot whole slide image classification|沿病理预训练特征的低维流形适配少样本分类|WSI|
 |[PTCMIL](https://github.com/ubc-tea/PTCMIL)|[不列颠哥伦比亚大学](https://www.ubc.ca/)|[MIA'26](https://doi.org/10.1016/j.media.2026.104013)|PTCMIL: Multiple instance learning via prompt token clustering for whole slide image analysis|用可学习提示 token 聚类实例表征；此处的 prompt 不是文本输入|WSI|

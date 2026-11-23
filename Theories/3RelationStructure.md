@@ -6,6 +6,7 @@
 
 |方法名|团队|期刊/会议|全称|思想|领域|
 |:---|:---|:---|:---|:---|:---|
+|[DragnMIL](https://palm.seu.edu.cn/zhangml/files/DragnMIL.rar)|[中国矿业大学](https://www.cumt.edu.cn/) / [东南大学](https://palm.seu.edu.cn/zhangml/) / [浙江大学](https://www.zju.edu.cn/)|[TPAMI'26](https://doi.org/10.1109/TPAMI.2026.3742173)（Early Access）|Drawer Graph Neural Network for Multi-Instance Learning|通过自适应构边建模包内和跨包的实例关系，再按包聚合分类|通用 MIL / WSI|
 |FourierMIL|[波士顿大学](https://www.bu.edu/)|[IJCV'26](https://doi.org/10.1007/s11263-025-02679-x)|FourierMIL: Fourier filtering-based multiple instance learning for whole slide image analysis|在频域筛选全局和局部依赖，改善切片关系建模|WSI|
 |M2OTCA|[武汉科技大学](https://www.wust.edu.cn/)|[MIA'26](https://doi.org/10.1016/j.media.2026.104082)|M2OTCA: Multiple-magnification optimal transport-based cross-attention learning for whole slide image classification|以最优传输跨倍率对齐特征并做交叉注意力聚合|WSI|
 |Geo-MIL|[福州大学](https://www.fzu.edu.cn/)|[npj Digital Medicine'26](https://doi.org/10.1038/s41746-025-02287-6)|Geometric multi-instance learning for weakly supervised gastric cancer segmentation|利用组织拓扑关系改进弱监督胃癌病理分割|WSI|
